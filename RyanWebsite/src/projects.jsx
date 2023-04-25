@@ -1,6 +1,6 @@
 import "./App.css";
 
-function ProjCards() {
+function Projects() {
   return (
     <>
       <p className="projTitle">/PROJECTS</p>
@@ -41,4 +41,4 @@ function ProjCards() {
     </>
   );
 }
-export default ProjCards;
+export default Projects;
