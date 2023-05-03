@@ -13,12 +13,8 @@ function Footer() {
         >
           <img className="footerImg" src="/linkedin.png" alt="linkedinLogo" />{" "}
         </a>
-        <a
-          href="/Ryan Sethi CV.png"
-          download="Ryan Sethi CV.png"
-          target="_blank"
-        >
-          <img className="footerImg" src="/cv.png" alt="cvLogo" />{" "}
+        <a href="/RyanSethiCV.pdf" download="">
+          <img className="footerImg" id="" src="/cv.png" alt="cvLogo" />{" "}
         </a>
       </footer>
     </>

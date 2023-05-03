@@ -1,16 +1,17 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./navbar";
-
+import Home from "./Home";
+import Projects from "./projects";
 import Footer from "./footer";
-
-import { Route, Link, Router, Routes } from "react-router-dom";
+import Contact from "./contact";
 
 function App() {
   return (
     <>
       <div className="App">
-        <Navbar />
+        <Home />
+        <Projects />
+        <Contact />
         <Footer />
       </div>
     </>

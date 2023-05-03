@@ -10,30 +10,28 @@
 * {
   font-family: Bm;
   font-size: 50px;
+  /* color: black; */
+  color: #efead8;
 }
 
 .name {
   font-size: 100px;
   width: 40%;
-  justify-content: center;
 }
 
 .app {
-  background-color: rgb(0, 0, 0);
   justify-content: space-between;
 }
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: rgb(26, 26, 26);
+  /* background-color: rgb(234, 234, 234); */
+  background-color: #5f7161;
   justify-content: space-between;
 }
 
 .topName {
-  text-align: center;
-  justify-content: center;
-  align-content: center;
   width: 100%;
 }
 .welcomeLine {
@@ -56,6 +54,19 @@ body {
   font-size: 40px;
 }
 
+.toolDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.toolButtons {
+  background-color: transparent;
+  outline: #efead8;
+  outline-style: outset;
+  outline-width: 2px;
+  border: none;
+}
+
 .projectsDiv {
   display: flex;
   flex-direction: row;
@@ -69,7 +80,10 @@ body {
 .projectCard {
   height: 50vh;
   width: 20vw;
-  background-color: rgb(255, 255, 255);
+  background-color: #f4f4f4;
+  outline: 5px;
+  outline-style: outset;
+  outline-color: #efead8;
   font-size: 40px;
   border-radius: 4px;
   margin: 10px;
@@ -80,20 +94,6 @@ body {
   justify-content: space-between;
 }
 
-footer {
-  display: flex;
-  flex-direction: row;
-  margin-top: 60px;
-  justify-content: center;
-}
-.footerImg {
-  height: 60px;
-  width: 60px;
-  padding-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  filter: brightness(0) invert(1);
-}
 .projectImage {
   height: 50%;
   width: 100%;
@@ -109,8 +109,25 @@ footer {
   width: 100%;
   cursor: pointer;
 }
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.footerImg {
+  height: 60px;
+  width: 60px;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 @media all and (max-width: 500px) {
+  .app {
+    width: 100%;
+  }
   .projectsDiv {
     margin-top: 40px;
     display: flex;
@@ -129,5 +146,14 @@ footer {
     flex-direction: column;
     align-content: center;
     justify-content: space-between;
+  }
+
+  .topName {
+    width: 50px;
+    font-size: 60px;
+  }
+  .name {
+    width: 50px;
+    font-size: 60px;
   }
 }

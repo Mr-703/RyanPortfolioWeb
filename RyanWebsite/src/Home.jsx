@@ -23,12 +23,22 @@ function Home() {
           ABOUT_ME.md
           <br />
           <span className="aboutPara">
-            Hi my name is Ryan Sethi, and I'm a front-end software developer who
-            loves problem solving, thinking out of the box, and being creative.
+            Hi my name is Ryan Sethi, and I'm a front-end developer who loves
+            problem solving, thinking out of the box, and being creative.
           </span>
         </div>
-
-        <Footer />
+        <div>
+          /TOOLS_&&_LANGUAGES
+          <br />
+          <div className="toolDiv">
+            <button className="toolButtons">JavaScript</button>
+            <button className="toolButtons">HTML</button>
+            <button className="toolButtons">CSS</button>
+            <button className="toolButtons">Git</button>
+            <button className="toolButtons">React</button>
+            <button className="toolButtons">Figma</button>
+          </div>
+        </div>
       </div>
     </>
   );
